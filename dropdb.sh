@@ -1,0 +1,1 @@
+docker exec -it postgres12 dropdb --username=root simple_bank
