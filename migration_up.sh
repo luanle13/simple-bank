@@ -1,1 +1,0 @@
-migrate -path database/migration -database "postgresql://root:mysecretpassword@localhost:5432/simple_bank?sslmode=disable" -verbose up
