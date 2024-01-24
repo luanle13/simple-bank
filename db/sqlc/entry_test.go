@@ -23,7 +23,7 @@ func createRandomEntry(t *testing.T) Entry {
 	assert.Equal(t, arg.AccountID, entry.AccountID)
 	assert.Equal(t, arg.Amount, entry.Amount)
 	assert.NotZero(t, entry.ID)
-	assert.NotZero(t, entry.ID)
+	assert.NotZero(t, entry.CreatedAt)
 
 	return entry
 }
