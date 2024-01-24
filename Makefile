@@ -21,4 +21,7 @@ migratedown:
 sqlc:
 	sqlc generate
 
+test:
+	go test -v -cover ./...
+
 .PHONY: env createdb dropdb migrateup migratedown sqlc
